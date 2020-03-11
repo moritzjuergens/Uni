@@ -1,0 +1,21 @@
+Aufgabe 1
+=========
+a) Cat liest eine Datei sequenziell und kann zum verändern einer Datei genutzt werden
+
+b)  cat >file1
+    cat >file2
+    cat -n file1 file2>file3
+
+Aufgabe 2
+=========
+a) echo -e 'Dear Friend \n\n\n          Welcome'
+
+b) Leerzeilen werden in testf geschrieben und dann werden die Anzahl an Bytes, Wörtern und Zeilen der Datei ausgegeben
+
+Aufgabe 3
+=========
+sort -uf Namen
+
+Aufgabe 4
+=========
+sort -f Namen | uniq -ci | sort -rn | head -n1
